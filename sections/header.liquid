@@ -1,6 +1,6 @@
 {% assign main_menu_linklist = linklists[section.settings.menu].links %}
 {% comment %} {{ shop.customer_accounts_enabled }} {% endcomment %}
-Hello World from home
+Hello World from home to Git-Shopify repository
 <div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
   <div class="mx-auto px-4 sm:px-6">
     <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
@@ -14,8 +14,6 @@ Hello World from home
             {% render 'icon-menu' %}
         </button>
       </div>
-
-
       <!-- NAVIGATION MENU -->
       <nav x-data="{ open: false }" class="hidden md:flex space-x-10">
         {% for link in main_menu_linklist %}
