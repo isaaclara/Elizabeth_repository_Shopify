@@ -8,7 +8,179 @@
   "market": [],
   "order": [],
   "page": [],
-  "product": [],
+  "product": [
+    {
+      "key": "age-group",
+      "namespace": "shopify",
+      "name": "Age group",
+      "description": "Defines the target age range for a product, such as adults or kids",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dietary-use",
+      "namespace": "shopify",
+      "name": "Dietary use",
+      "description": "Classifies products based on dietary benefits, e.g. muscle building, low carb",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "detailed-ingredients",
+      "namespace": "shopify",
+      "name": "Detailed ingredients",
+      "description": "Lists specific components used in health and beauty, e.g. Vitamin C, probiotics",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dietary-supplements",
+      "namespace": "shopify",
+      "name": "Dietary supplements",
+      "description": "Identifies the added nutrients in a product, like calcium or probiotics",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "route-of-administration",
+      "namespace": "shopify",
+      "name": "Route of administration",
+      "description": "Identifies how the product is applied or consumed, influencing efficacy and safety (e.g., oral, topical, transdermal patch, sublingual, intramuscular injection)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "supplement-health-focus",
+      "namespace": "shopify",
+      "name": "Supplement health focus",
+      "description": "Defines the primary wellness area the supplement is intended to support",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "creatine-type",
+      "namespace": "shopify",
+      "name": "Creatine type",
+      "description": "Specifies the chemical form or specialized formulation of creatine used in the supplement",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "prod_info_1",
+      "namespace": "custom",
+      "name": "prod-info-1",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "prod_info_2",
+      "namespace": "custom",
+      "name": "prod-info-2",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "prod_info_3",
+      "namespace": "custom",
+      "name": "prod-info-3",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "prod_info_table",
+      "namespace": "custom",
+      "name": "prod-info-table",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "beneficios_titulo",
+      "namespace": "custom",
+      "name": "beneficios-titulo",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "beneficios_text",
+      "namespace": "custom",
+      "name": "beneficios-text",
+      "description": "",
+      "type": {
+        "name": "rich_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "validez_oferta",
+      "namespace": "custom",
+      "name": "validez_oferta",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
   "variant": [],
-  "shop": []
+  "shop": [
+    {
+      "key": "volume_bundles",
+      "namespace": "rbrfb",
+      "name": "FastBundle - Volume Bundles Data",
+      "description": "Volume bundles' data for storefront",
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    },
+    {
+      "key": "cross_sell_bundles",
+      "namespace": "rbrfb",
+      "name": "FastBundle - Cross-Sell Bundles Data",
+      "description": "Cross-Sell bundles' data for storefront",
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    },
+    {
+      "key": "fastbundleconf",
+      "namespace": "rbrfb",
+      "name": "Fast Bundle Conf",
+      "description": "App's config for the widgets",
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    }
+  ]
 }

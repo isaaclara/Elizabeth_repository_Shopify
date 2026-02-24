@@ -44,7 +44,7 @@
     {% endfor %}
 </article>
 
-{%  if blog.comments_enabled? %} 
+{% if blog.comments_enabled? %} 
     <div id="comments" class="my-8">
         {% if article.comments_count > 0 %}
             <div class="flex-1 items-center justify-center mx-auto max-w-4xl px-4">
